@@ -1,13 +1,26 @@
 {
 	"name": "@imirfanul/csv-processor",
 	"author": "Md Irfanul Alam Tanveer",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"scripts": {
 		"test": "mocha -r ts-node/register test/**/*.test.ts",
 		"build": "tsc"
 	},
-	"keywords": [],
+	"keywords": [
+		"csv-data-process",
+		"csv",
+		"csv-parser",
+		"csv-file-process"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:imirfanul/csv-processor.git"
+	},
+	"bugs": {
+		"url": "https://github.com/imirfanul/csv-processor/issues"
+	},
+	"homepage": "https://github.com/imirfanul/csv-processor#readme",
 	"license": "ISC",
 	"description": "",
 	"dependencies": {
